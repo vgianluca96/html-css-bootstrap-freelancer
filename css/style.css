@@ -20,6 +20,10 @@
         opacity: 1;
     }
 
+    .uppercase {
+        text-transform: uppercase;
+    }
+
 /* #endregion Common */
 
 
@@ -29,7 +33,7 @@
         height: 50px;
     }
 
-    .debug .contact, .debug .location, .debug .copyright {
+    .debug .contact {
         height: 200px;
     }
 
@@ -51,7 +55,6 @@
     .start {
         background-color: var(--bf-green);
         color: var(--bf-white);
-        text-transform: uppercase;
     }
 
     .start img {
@@ -94,6 +97,10 @@
 
 
 /* #region Footer */
+
+    footer {
+        color: var(--bf-white);
+    }
 
     .location {
         background-color: var(--bf-lightblue);
