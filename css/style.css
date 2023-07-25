@@ -29,7 +29,7 @@
         height: 50px;
     }
 
-    .debug .about, .debug .contact, .debug .location, .debug .copyright {
+    .debug .contact, .debug .location, .debug .copyright {
         height: 200px;
     }
 
@@ -83,6 +83,11 @@
 
     .about {
         background-color: var(--bf-green);
+        color: var(--bf-white);
+    }
+
+    .about hr {
+        border: 2px solid var(--bf-white);
     }
 
 /* #endregion About */
