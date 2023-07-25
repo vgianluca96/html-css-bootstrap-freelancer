@@ -1,0 +1,64 @@
+
+/* #region Common */
+
+:root {
+    --bf-darkblue: #2c3e50;
+    --bf-lightblue: #3a546d;
+    --bf-green: #1abc9c;
+    --bf-white: white;
+}
+
+/* #endregion Common */
+
+
+/* #region Debug */
+
+    .debug header {
+        height: 50px;
+    }
+
+    .debug section {
+        height: 200px;
+    }
+
+/* #endregion Debug */
+
+
+/* #region Header */
+
+    header {
+        background-color: var(--bf-darkblue);
+    }
+
+/* #endregion Header */
+
+
+/* #region Start */
+
+    .start {
+        background-color: var(--bf-green);
+    }
+
+/* #endregion Header */
+
+
+/* #region About */
+
+    .about {
+        background-color: var(--bf-green);
+    }
+
+/* #endregion About */
+
+
+/* #region Footer */
+
+    .location {
+        background-color: var(--bf-lightblue);
+    }
+
+    .copyright {
+        background-color: var(--bf-darkblue);
+    }
+
+/* #endregion Footer */
