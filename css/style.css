@@ -12,6 +12,12 @@
         --bf-lightblue: #3a546d;
         --bf-green: #1abc9c;
         --bf-white: white;
+        --bf-black: black;
+    }
+
+    hr {
+        width: 50px;
+        opacity: 1;
     }
 
 /* #endregion Common */
@@ -23,7 +29,7 @@
         height: 50px;
     }
 
-    .debug section {
+    .debug .about, .debug .contact, .debug .location, .debug .copyright {
         height: 200px;
     }
 
@@ -45,22 +51,32 @@
     .start {
         background-color: var(--bf-green);
         color: var(--bf-white);
+        text-transform: uppercase;
     }
 
     .start img {
-        width: 100px;
+        width: 250px;
     }
 
     .start hr {
-        width: 100px;
-        border: 2px solid;
-    }
-
-    .start .star {
-       transform: translate(-50%, -50%);
+        border: 2px solid var(--bf-white);
     }
 
 /* #endregion Start */
+
+
+/* #region Portfolio */
+
+    .portfolio img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .portfolio hr {
+        border: 2px solid var(--bf-black);
+    }
+
+/* #endregion Portfolio */
 
 
 /* #region About */
