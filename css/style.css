@@ -52,6 +52,15 @@
 /* #endregion Star with lines */
 
 
+/* #region Button */
+
+    .btn_bg {
+        background-color: var(--bf-green);
+    }
+
+/* #endregion Button */
+
+
 /* #region Header */
 
     header {
