@@ -15,12 +15,42 @@
         --bf-black: black;
     }
 
+    /* Bottone navbar */
+
     .navbar-toggler-filter {
         filter: contrast(0);
     }
 
     .navbar-toggler-focus:focus {
         box-shadow: none;
+    }
+
+    /* Separatore con stella */
+
+    hr {
+        width: 75px;
+        opacity: 1;
+    }
+
+    .star-lines-white {
+        color: var(--bf-white);
+    }
+
+    .star-lines-white hr {
+        border: 2px solid var(--bf-white);
+    }
+
+    .star-lines-dark {
+        color: var(--bf-darkblue);
+    }
+
+    .star-lines-dark hr {
+        border: 2px solid var(--bf-darkblue);
+    }
+
+    /* Bottone form */
+    .btn_bg {
+        background-color: var(--bf-green);
     }
 
 /* #endregion Common */
@@ -33,40 +63,6 @@
     }
 
 /* #endregion Debug */
-
-
-/* #region Star with lines */
-
-    .star-lines-white {
-        color: var(--bf-white);
-    }
-
-    .star-lines-white hr {
-        width: 50px;
-        opacity: 1;
-        border: 2px solid var(--bf-white);
-    }
-
-    .star-lines-dark {
-        color: var(--bf-darkblue);
-    }
-
-    .star-lines-dark hr {
-        width: 50px;
-        opacity: 1;
-        border: 2px solid var(--bf-darkblue);
-    }
-
-/* #endregion Star with lines */
-
-
-/* #region Button */
-
-    .btn_bg {
-        background-color: var(--bf-green);
-    }
-
-/* #endregion Button */
 
 
 /* #region Header */
@@ -138,10 +134,38 @@
 
 
 @media screen and (min-width: 576px) {
+
+    .fs-sm-1 {
+        font-size: 32px;
+    }
+
+    .fs-sm-2 {
+        font-size: 24px;
+    }
+
+    .fs-sm-3 {
+        font-size: 18px;
+    }
     
 }
 
 
 @media screen and (min-width: 992px) {
+
+    .fs-lg-1 {
+        font-size: 44px;
+    }
+
+    .fs-lg-2 {
+        font-size: 32px;
+    }
+
+    .fs-lg-3 {
+        font-size: 24px;
+    }
+
+    hr {
+        width: 125px;
+    }
     
 }
