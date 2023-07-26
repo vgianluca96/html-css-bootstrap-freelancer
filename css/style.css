@@ -49,6 +49,7 @@
     }
 
     /* Bottone form */
+    
     .btn_bg {
         background-color: var(--bf-green);
     }
@@ -124,6 +125,15 @@
         aspect-ratio: 1/1;
         border: 1px solid var(--bf-white);
         border-radius: 50%;
+    }
+
+    .location a {
+        text-decoration: none;
+        color: var(--bf-green);
+    }
+
+    .location a:hover {
+        text-decoration: underline;
     }
 
     .copyright {
