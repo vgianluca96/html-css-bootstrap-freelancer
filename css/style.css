@@ -15,6 +15,14 @@
         --bf-black: black;
     }
 
+    .navbar-toggler-filter {
+        filter: contrast(0);
+    }
+
+    .navbar-toggler-focus:focus {
+        box-shadow: none;
+    }
+
 /* #endregion Common */
 
 
